@@ -1,10 +1,11 @@
 .headcuizin {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../img/header.jpg");
-    height: 400px;
-    color: white;
-    background-position: center;
-  
+    url("../img/team/team.jpg");
+  height: 400px;
+  color: white;
+  background-image: no-repeat;
+  background-position: center;
+
 }
 
 .navBrand {
@@ -34,20 +35,17 @@
   margin-bottom: 50px;
 }
 
-section a{
-
-  color: black;
-}
-
 footer {
   background-color: black;
   list-style: none;
 }
 
+
 footer a {
   color: inherit;
   text-decoration: underline;
 }
+
 footer ul {
   list-style-type: none;
   padding-left: 0;
@@ -55,7 +53,6 @@ footer ul {
 aside i.bi, footer i.bi {
   padding: 5px;
 }
-
 .col-button {
   border-radius: 8px;
   color: black;
@@ -78,3 +75,7 @@ aside i.bi, footer i.bi {
   margin: 0px;
 }
 
+.team-img-big{
+  height: 300px;
+  border-radius: 600px;
+}
