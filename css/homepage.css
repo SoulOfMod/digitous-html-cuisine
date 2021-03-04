@@ -1,8 +1,79 @@
-.NavCuiz{
-  font-family: Courgette;
+.headcuizin {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/header.jpg");
+  height: 600px;
+  opacity: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
-.headcuizin{
+.navBrand {
+  font-size: 25px;
+  padding: 0%;
+}
 
+.container-fluid {
+  padding: 0px;
+}
+.navbar {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.header-pack {
+  margin-top: 150px;
+}
+
+.header-pack img {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: black;
+  list-style: none;
+  justify-content: center;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.footer-text {
   color: white;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.col-button {
+  border-radius: 8px;
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-width: 2px;
+  width: 100%;
+}
+
+.footer-button {
+  border-radius: 8px;
+  color: white;
+  background-color: black;
+  border-color: white;
+  border-width: 2px;
+  height: calc(1.5em + 0.75rem + 2px);
+}
+
+.row {
+  margin: 0px;
+}
+
+.inbutton {
+  display: flex;
 }
